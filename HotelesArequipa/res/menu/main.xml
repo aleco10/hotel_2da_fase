@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.hotelesarequipa.MainActivity" >
+
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"/>
+    <item android:id="@+id/Ayuda" android:title="@string/ayuda"/>
+    <item android:id="@+id/Acercade" android:title="@string/acerca_de"/>
+    <item android:id="@+id/Salir" android:title="@string/salir"/>
+
+</menu>

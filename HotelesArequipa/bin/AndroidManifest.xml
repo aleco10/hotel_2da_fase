@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hotelesarequipa"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:testOnly="false"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Login"
+            android:label="@string/title_activity_login" >
+        </activity>
+        <activity
+            android:name=".Hoteles"
+            android:label="@string/title_activity_hoteles" >
+        </activity>
+        <activity
+            android:name=".Buscar"
+            android:label="@string/title_activity_buscar" >
+        </activity>
+        <activity
+            android:name=".TierraViva"
+            android:label="@string/title_activity_tierra_viva" >
+        </activity>
+        <activity
+            android:name=".Mensajes"
+            android:label="@string/title_activity_mensajes" >
+        </activity>
+        <activity
+            android:name=".Sesion"
+            android:label="@string/title_activity_sesion" >
+        </activity>
+        <activity
+            android:name=".Libertador"
+            android:label="@string/title_activity_libertador" >
+        </activity>
+        <activity
+            android:name=".LagoEstelar"
+            android:label="@string/title_activity_lago_estelar" >
+        </activity>
+        <activity
+            android:name=".Mint"
+            android:label="@string/title_activity_mint" >
+        </activity>
+        <activity
+            android:name=".SonestaPosadaDelInca"
+            android:label="@string/title_activity_sonesta_posada_del_inca" >
+        </activity>
+        <activity
+            android:name=".CasaAndina"
+            android:label="@string/title_activity_casa_andina" >
+        </activity>
+        <activity
+            android:name=".Email"
+            android:label="@string/title_activity_email" >
+        </activity>
+        <activity
+            android:name=".Registrar"
+            android:label="@string/title_activity_registrar" >
+        </activity>
+        <activity
+            android:name=".Ajustes"
+            android:label="@string/title_activity_ajustes" >
+        </activity>
+    </application>
+
+    <!-- INI AGREGADO -->
+    <!-- Otorgamos permisos de Internet a nuestra App -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- FIN AGREGADO -->
+    <!-- INI AGREGADO -->
+    <!-- Otorgamos permisos de llamadas a nuestra App -->
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <!-- FIN AGREGADO -->
+
+</manifest>

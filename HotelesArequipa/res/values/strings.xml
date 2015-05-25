@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HotelesArequipa</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Configuracion</string>
+    <string name="title_activity_login">Login</string>
+    <string name="title_activity_hoteles">Hoteles</string>
+    <string name="title_activity_buscar">Buscar</string>
+    <string name="title_activity_tierra_viva">TierraViva</string>
+    <string name="acerca_de">Acerca de</string>
+    <string name="ayuda">Ayuda</string>
+    <string name="salir">Salir</string>
+    <string name="title_activity_mensajes">Mensajes</string>
+    <string name="title_activity_sesion">Sesion</string>
+    <string name="title_activity_libertador">Libertador</string>
+    <string name="title_activity_lago_estelar">LagoEstelar</string>
+    <string name="title_activity_mint">Mint</string>
+    <string name="title_activity_sonesta_posada_del_inca">SonestaPosadaDelInca</string>
+    <string name="title_activity_casa_andina">CasaAndina</string>
+    <string name="title_activity_email">Email</string>
+    <string name="title_activity_registrar">Registrar</string>
+    <string name="title_activity_ajustes">Ajustes</string>
+
+</resources>
